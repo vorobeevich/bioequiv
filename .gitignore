@@ -1,0 +1,35 @@
+# Data (download from Yandex Disk, see README)
+data/
+
+# Parser subprojects (not needed for running)
+vidal_parser/
+drug bank/
+e_drug3d/
+eaeu_registry/
+eaeu_registry_portal/
+osp/
+scripts/
+build_data.py
+
+# Secrets
+.env
+
+# Build artifacts
+bioequiv_deploy.tar.gz
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# OS
+.DS_Store
+
+# Streamlit config (local only)
+.streamlit/
+
+# IDE
+.idea/
+.vscode/
+*.swp
